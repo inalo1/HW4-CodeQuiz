@@ -41,11 +41,31 @@ var questionArray = {
             choices: ["Ivy", "Jane", "Sarah", "Kate"],
             answer: 0,
             id: "question-one"
-            
         }, 
         {
-            
-        },{},{},{}]
+            question: "What is my name?",
+            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            answer: 0,
+            id: "question-two"
+        },
+        {
+            question: "What is my name?",
+            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            answer: 0,
+            id: "question-three"
+        },
+        {
+            question: "What is my name?",
+            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            answer: 0,
+            id: "question-four"
+        },
+        {
+            question: "What is my name?",
+            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            answer: 0,
+            id: "question-five"
+        }]
 } 
     
     console.log(questionArray);

@@ -37,33 +37,33 @@
 var questionArray = {
     questions: [
         {
-            question: "What is my name?",
-            choices: ["Ivy", "Jane", "Sarah", "Kate"],
-            answer: 0,
+            question: "Which one is NOT a fundamental programming language of the web?",
+            choices: ["HTML", "Java", "CSS", "JavaScript"],
+            answer: 1,
             id: "question-one"
         }, 
         {
-            question: "What is my name?",
-            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            question: "How do you call a function?",
+            choices: ["()", "{}", "[]", "<>"],
             answer: 0,
             id: "question-two"
         },
         {
-            question: "What is my name?",
-            choices: ["Ivy", "Jane", "Sarah", "Kate"],
-            answer: 0,
+            question: "the parenthesis () suggests that it is..",
+            choices: ["a function", "a property", "a method", "an object"],
+            answer: 2,
             id: "question-three"
         },
         {
-            question: "What is my name?",
-            choices: ["Ivy", "Jane", "Sarah", "Kate"],
+            question: "the curly bracket {} suggests that it is..",
+            choices: ["a function", "a property", "a method", "a variable"],
             answer: 0,
             id: "question-four"
         },
         {
-            question: "What is my name?",
-            choices: ["Ivy", "Jane", "Sarah", "Kate"],
-            answer: 0,
+            question: "Which one is not an HTML Element?",
+            choices: ["Div", "Body", "Singletons", "none of the above"],
+            answer: 3,
             id: "question-five"
         }]
 } 

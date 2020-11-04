@@ -33,7 +33,7 @@
 // -----------------------------------------------------
 
 // ---- START OF CODE ---- //
-
+// 5 QUESTIONS + ANSWERS //
 var questionArray = {
     questions: [
         {
@@ -70,6 +70,87 @@ var questionArray = {
     
     console.log(questionArray);
 
+// ORDERED LIST
 
+// set initial index for the question we're on
+    var currentQuestion= 0;
+
+// for loop each time a question is answered
+// or everytime a button is pressed currentQuestion ++ increments up
+// to increment the index value on line 74
+
+// set an on click or something to trigger the for loop one time each time its pressed
+
+
+var question = document.getElementById("questions")
+// populate the html 
+questionArray.question[currentQuestion].question
+
+// this shows the first question 
+// questionArray.question[0].question
+
+// generate your answers
+questionArray.question[currentQuestion].choices
+
+// when selecting an answer make sure to grab the index 
+
+//  id of each answer choice correlates to the index of the choices array 
+
+userChoice === //whatever index var score ++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // TIMER //
+// var timer = document.querySelector(".time");
+// var secondsLeft = 30;
+
+// function setTime() {
+//   var timerInterval = setInterval(function() {
+//     secondsLeft--;
+//     timer.textContent = secondsLeft + " seconds left";
+
+//     if(secondsLeft === 0) {
+//       clearInterval(timerInterval);
+//       sendMessage();
+//     }
+
+//   }, 1000);
+// }
+
+// function sendMessage() {
+//   timer.textContent = " ";
+
+//   var imgEl = document.createElement("img");
+
+//   imgEl.setAttribute("src", "images/image_1.jpg");
+//   mainEl.appendChild(imgEl);
+
+// }
+
+// setTime();
 
 

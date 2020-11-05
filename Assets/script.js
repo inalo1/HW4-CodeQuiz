@@ -51,7 +51,32 @@ var questions = [
         }
 ]
 
-    console.log(questionArray);
+    console.log(questions);
+        
+    let currentQuestion = 0;
+    let questionElement = document.getElementById("questions")
+    questionElement.textContent = questions[currentQuestion].question
+    console.log(questionElement);
+    
+    
+    let answerElements = document.querySelectorAll('#answer-btns button')
+    let answerChoices = questions[currentQuestion].choices
+    // answerElements[0].textContent = questions[currentQuestion].choices[0]
+    // answerElements[1].textContent = questions[currentQuestion].choices[1]
+    // answerElements[2].textContent = questions[currentQuestion].choices[2]
+    // answerElements[3].textContent = questions[currentQuestion].choices[3]
+    for (let i = 0; i < answerChoices.length; i++) {
+      const choice = answerChoices[i];
+      answerElements[i].textContent = choice
+      
+    }
+    
+
+
+
+
+
+
     
     // QUIZ FUNCTIONS //
 //     var startButton = document.getElementById("start-btn");
@@ -67,7 +92,6 @@ var questions = [
 //     console.log('started')
 //     startButton.classList.add('hide')
 //     shuffledQuestions = questions.sort(() => Math.random() - .5);
-//     CurrentQuestionIndex = 0;
 //     questionContainerElement.classList.remove('hide')
 //     nextQuestion()
 // }

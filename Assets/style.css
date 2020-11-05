@@ -19,3 +19,10 @@
     border-color: rgb(255, 255, 255);
 }
 
+.controls {
+    display:flex;
+    justify-content: right;
+    align-items: left;
+}
+
+

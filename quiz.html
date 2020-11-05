@@ -23,19 +23,20 @@
                 <div class="card">
                     <h5 class="card-header" style="text-align: center;">30 Second Code Quiz Challenge</h5>
                     <div class="card-body">
-                        <div id="beginningQuiz" class="hide">
-                            <h2 id="question-title"></h2>
-                            <div id="question-list" class="question-list"> 
-                                <ol>
-                                    <li class="question-one"></li>
-                                    <li class="question-two"></li>
-                                    <li class="question-three"></li>
-                                    <li class="question-four"></li>
-                                    <li class="question-five"></li>
-                                </ol> 
+                        <div id="question-container" class="hide">
+                            <div id="question"> Question </div>
+                            <div id="answer-buttons" class="btn-grid"> 
+                                <button class="btn"> Answer 1 </button>
+                                <button class="btn"> Answer 2 </button>
+                                <button class="btn"> Answer 3 </button>
+                                <button class="btn"> Answer 4 </button> 
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary" style="margin-top: 25px"> next </a>
+                        <!-- <a href="#" class="btn btn-primary" style="margin-top: 25px"> next </a> -->
+                        <div class="question-controls">
+                            <button id="start-btn" class="start-btn btn"> Start </button>
+                            <button id="next-btn" class="start-btn btn"> Next </button> 
+                        </div> 
                     </div>
                 </div>
             </div>
